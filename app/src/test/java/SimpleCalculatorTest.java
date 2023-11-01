@@ -6,8 +6,8 @@ public class SimpleCalculatorTest {
     private SimpleCalculator simpleCalculator = new SimpleCalculator();  // Membuat instance dari SimpleCalculator.
 
     @Test
-    public void twoMinusTwoShouldEqualFour() {  // Deklarasi metode pengujian.
-        int result = simpleCalculator.add(2, 2);  // Memanggil metode 'add' dan menyimpan hasilnya dalam variabel 'result'.
-        assertEquals(0, result);  // Memeriksa apakah 'result' sama dengan 4.
+    public void twoPlusTwoShouldEqualFour() {  // Deklarasi metode pengujian.
+        int result = simpleCalculator.add(20, 5);  // Memanggil metode 'add' dan menyimpan hasilnya dalam variabel 'result'.
+        assertEquals(25, result);  // Memeriksa apakah 'result' sama dengan 25
     }
 }
